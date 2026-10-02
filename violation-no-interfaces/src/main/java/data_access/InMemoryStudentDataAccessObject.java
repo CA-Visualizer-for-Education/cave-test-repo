@@ -7,7 +7,7 @@ import java.util.Map;
 
 /*(DAI) Under Clean Architecture, this should implement a data acess interface;
 however, it has been removed in this bad example. If we wanted to use this data
-access object, what would we have to do now?
+access object, what would we have to do now?*/
 
 public class InMemoryStudentDataAccessObject {
     private final Map<String, Student> students = new HashMap<>();
